@@ -454,3 +454,8 @@ PRODUCT_BOOT_JARS += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# Doze
+PRODUCT_PACKAGES += \
+    XiaomiDoze		    
+
