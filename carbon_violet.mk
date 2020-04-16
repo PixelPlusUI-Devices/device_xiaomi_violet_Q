@@ -19,7 +19,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 $(call inherit-product, vendor/carbon/config/common_full_phone.mk)
-IS_PHONE:= true
+$(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := carbon_violet
