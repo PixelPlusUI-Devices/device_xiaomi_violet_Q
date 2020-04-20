@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Carbon stuff.
+# Inherit some common ROM stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
@@ -31,5 +31,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="violet" \
     TARGET_DEVICE="violet"
+
+# PixelPlusUI Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.pixelplusui.maintainer=Saurav
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
