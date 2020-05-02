@@ -10,6 +10,11 @@
     "branch": "ten"
   },
   {
+    "repository": "Evolution-X-Devices/vendor_MiuiCamera",
+    "target_path": "vendor_ANXCamera",
+    "branch": "violet"
+  },
+  {
     "repository": "android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
     "branch": "lineage-17.0",
